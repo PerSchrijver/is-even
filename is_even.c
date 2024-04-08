@@ -400,6 +400,10 @@ bool is_even(double n)
     {
         return true;
     }
+    else if (n == 99)
+    {
+        return false;
+    }
     else
     {
         printf("n is too large\n");

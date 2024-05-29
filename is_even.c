@@ -8836,6 +8836,10 @@ bool is_even(double n)
     {
         return false;
     }
+    else if (n == 2208)
+    {
+        return true;
+    }
     else
     {
         printf("n is too large\n");

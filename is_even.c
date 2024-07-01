@@ -12956,6 +12956,10 @@ bool is_even(double n)
     {
         return false;
     }
+    else if (n == 3238)
+    {
+        return true;
+    }
     else
     {
         printf("n is too large\n");
